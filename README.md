@@ -76,6 +76,11 @@
 
 # AWS Cloud & Big Data Architectures - Project
 
+## Architecture diagram
+
+![architecture_diagram.png](images%2FAWS%20Cloud%20%26%20Big%20Data%20Architectures%2Farchitecture_diagram%2Farchitecture_diagram.png)
+
+
 ## Step 1: VPC creation
 
 ![1.a-Creation_VPC.png](images%2FAWS%20Cloud%20%26%20Big%20Data%20Architectures%2FVPC_creation%2F1.a-Creation_VPC.png)
