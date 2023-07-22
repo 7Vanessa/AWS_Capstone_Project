@@ -303,7 +303,7 @@
 ![screenshot_2023-07-22_20.36.29.png](images%2FAWS%20Cloud%20%26%20Big%20Data%20Architectures%2FCreate_parameters%2Fscreenshot_2023-07-22_20.36.29.png)
 
 
-## Step 17: Query
+## Step 17: Test Query before image creation
 
 ![screenshot_2023-07-22_20.37.32.png](images%2FAWS%20Cloud%20%26%20Big%20Data%20Architectures%2FQuery%2Fscreenshot_2023-07-22_20.37.32.png)
 
@@ -352,6 +352,21 @@
 
 ![screenshot_2023-07-22_21.31.37.png](images%2FAWS%20Cloud%20%26%20Big%20Data%20Architectures%2Fcreate_autoscaling_group%2Fscreenshot_2023-07-22_21.31.37.png)
 
+![screenshot_2023-07-23_1.png](images%2FAWS%20Cloud%20%26%20Big%20Data%20Architectures%2Fcreate_autoscaling_group%2Fscreenshot_2023-07-23_1.png)
+
+![screenshot_2023-07-23_2.png](images%2FAWS%20Cloud%20%26%20Big%20Data%20Architectures%2Fcreate_autoscaling_group%2Fscreenshot_2023-07-23_2.png)
+
+![screenshot_2023-07-23-3.png](images%2FAWS%20Cloud%20%26%20Big%20Data%20Architectures%2Fcreate_autoscaling_group%2Fscreenshot_2023-07-23-3.png)
+
+
+## Step 21: Get the DNS name of the load balancer
+
+![dns_load_balancer.png](images%2FAWS%20Cloud%20%26%20Big%20Data%20Architectures%2Fdns_load_balancer%2Fdns_load_balancer.png)
+
+
+## Step 22: Check the output by using the DNS name of the load balancer and try a query
+
+![check_output_using_loadbalancer_dns_name.png](images%2FAWS%20Cloud%20%26%20Big%20Data%20Architectures%2Fcheck_output_using_dns_load_balancer%2Fcheck_output_using_loadbalancer_dns_name.png)
 
 
 # Big Data - Data Visualization With AWS QuickSight
