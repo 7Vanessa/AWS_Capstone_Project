@@ -76,6 +76,281 @@
 
 # AWS Cloud & Big Data Architectures - Project
 
+## Step 1: VPC creation
+
+![1.a-Creation_VPC.png](images%2FAWS%20Cloud%20%26%20Big%20Data%20Architectures%2FVPC_creation%2F1.a-Creation_VPC.png)
+
+## Step 2: Subnets creation and association with the VPC
+
+![screenshot_2023-07-22_16.23.49.png](images%2FAWS%20Cloud%20%26%20Big%20Data%20Architectures%2FCreation_des_subnets%20_et_association_avec_le_VPC%2Fscreenshot_2023-07-22_16.23.49.png)
+
+![screenshot_2023-07-22_16.23.55.png](images%2FAWS%20Cloud%20%26%20Big%20Data%20Architectures%2FCreation_des_subnets%20_et_association_avec_le_VPC%2Fscreenshot_2023-07-22_16.23.55.png)
+
+![screenshot_2023-07-22_16.24.02.png](images%2FAWS%20Cloud%20%26%20Big%20Data%20Architectures%2FCreation_des_subnets%20_et_association_avec_le_VPC%2Fscreenshot_2023-07-22_16.24.02.png)
+
+![screenshot_2023-07-22_16.24.08.png](images%2FAWS%20Cloud%20%26%20Big%20Data%20Architectures%2FCreation_des_subnets%20_et_association_avec_le_VPC%2Fscreenshot_2023-07-22_16.24.08.png)
+
+![screenshot_2023-07-22_16.24.13.png](images%2FAWS%20Cloud%20%26%20Big%20Data%20Architectures%2FCreation_des_subnets%20_et_association_avec_le_VPC%2Fscreenshot_2023-07-22_16.24.13.png)
+
+![screenshot_2023-07-22_16.24.40.png](images%2FAWS%20Cloud%20%26%20Big%20Data%20Architectures%2FCreation_des_subnets%20_et_association_avec_le_VPC%2Fscreenshot_2023-07-22_16.24.40.png)
+
+
+## Step 3: Internet Gateway creation and association with the VPC
+
+![screenshot_2023-07-22_16.25.35.png](images%2FAWS%20Cloud%20%26%20Big%20Data%20Architectures%2FCreation_Internet_Gateway_et_association_avec_le_VPC%2Fscreenshot_2023-07-22_16.25.35.png)
+
+![screenshot_2023-07-22_16.26.02.png](images%2FAWS%20Cloud%20%26%20Big%20Data%20Architectures%2FCreation_Internet_Gateway_et_association_avec_le_VPC%2Fscreenshot_2023-07-22_16.26.02.png)
+
+![screenshot_2023-07-22_16.26.21.png](images%2FAWS%20Cloud%20%26%20Big%20Data%20Architectures%2FCreation_Internet_Gateway_et_association_avec_le_VPC%2Fscreenshot_2023-07-22_16.26.21.png)
+
+
+## Step 4.a: Route tables creation & Association to the VPC & association to the subnets
+
+![screenshot_2023-07-22_16.27.17.png](images%2FAWS%20Cloud%20%26%20Big%20Data%20Architectures%2FCreation_des_routes_tables_association_au_VPC_association_aux_subnets%2Fscreenshot_2023-07-22_16.27.17.png)
+
+![screenshot_2023-07-22_16.27.42.png](images%2FAWS%20Cloud%20%26%20Big%20Data%20Architectures%2FCreation_des_routes_tables_association_au_VPC_association_aux_subnets%2Fscreenshot_2023-07-22_16.27.42.png)
+
+![screenshot_2023-07-22_16.28.21.png](images%2FAWS%20Cloud%20%26%20Big%20Data%20Architectures%2FCreation_des_routes_tables_association_au_VPC_association_aux_subnets%2Fscreenshot_2023-07-22_16.28.21.png)
+
+![screenshot_2023-07-22_16.28.48.png](images%2FAWS%20Cloud%20%26%20Big%20Data%20Architectures%2FCreation_des_routes_tables_association_au_VPC_association_aux_subnets%2Fscreenshot_2023-07-22_16.28.48.png)
+
+![screenshot_2023-07-22_16.29.16.png](images%2FAWS%20Cloud%20%26%20Big%20Data%20Architectures%2FCreation_des_routes_tables_association_au_VPC_association_aux_subnets%2Fscreenshot_2023-07-22_16.29.16.png)
+
+
+## Step 4.b: Add route to the Public Route Table towards the Internet Gateway
+
+![Add_route_to_Public_Route_Table_vers_Internet_Gateway.png](images%2FAWS%20Cloud%20%26%20Big%20Data%20Architectures%2FAdd_route_to_Public_Route_Table_towards_Int_Gat%2FAdd_route_to_Public_Route_Table_vers_Internet_Gateway.png)
+
+
+## Step 4.c: Global Vision
+
+![4.c-Vision_globale.png](images%2FAWS%20Cloud%20%26%20Big%20Data%20Architectures%2FGlobal_Vision%2F4.c-Vision_globale.png)
+
+
+## Step 5: Security Groups creation
+
+![screenshot_2023-07-22_16.37.14.png](images%2FAWS%20Cloud%20%26%20Big%20Data%20Architectures%2FSecurity_Groups_creation%2Fscreenshot_2023-07-22_16.37.14.png)
+
+![screenshot_2023-07-22_16.38.18.png](images%2FAWS%20Cloud%20%26%20Big%20Data%20Architectures%2FSecurity_Groups_creation%2Fscreenshot_2023-07-22_16.38.18.png)
+
+![screenshot_2023-07-22_16.38.53.png](images%2FAWS%20Cloud%20%26%20Big%20Data%20Architectures%2FSecurity_Groups_creation%2Fscreenshot_2023-07-22_16.38.53.png)
+
+![screenshot_2023-07-22_16.40.04.png](images%2FAWS%20Cloud%20%26%20Big%20Data%20Architectures%2FSecurity_Groups_creation%2Fscreenshot_2023-07-22_16.40.04.png)
+
+![screenshot_2023-07-22_16.41.10.png](images%2FAWS%20Cloud%20%26%20Big%20Data%20Architectures%2FSecurity_Groups_creation%2Fscreenshot_2023-07-22_16.41.10.png)
+
+
+## Step 6: Creation of an EC2 instance and association to security group Inventory-App
+
+![screenshot_2023-07-22_21.27.43.png](images%2FAWS%20Cloud%20%26%20Big%20Data%20Architectures%2FEC2_creation_and_association_to_Inventory-App_SG%2Fscreenshot_2023-07-22_21.27.43.png)
+
+![screenshot_2023-07-22_21.27.50.png](images%2FAWS%20Cloud%20%26%20Big%20Data%20Architectures%2FEC2_creation_and_association_to_Inventory-App_SG%2Fscreenshot_2023-07-22_21.27.50.png)
+
+![screenshot_2023-07-22_21.27.56.png](images%2FAWS%20Cloud%20%26%20Big%20Data%20Architectures%2FEC2_creation_and_association_to_Inventory-App_SG%2Fscreenshot_2023-07-22_21.27.56.png)
+
+![screenshot_2023-07-22_21.28.02.png](images%2FAWS%20Cloud%20%26%20Big%20Data%20Architectures%2FEC2_creation_and_association_to_Inventory-App_SG%2Fscreenshot_2023-07-22_21.28.02.png)
+
+
+## Step 7: Creation of an IAM-Inventory-Role
+
+![screenshot_2023-07-22_14.53.19.png](images%2FAWS%20Cloud%20%26%20Big%20Data%20Architectures%2FCreation_of_an_IAM_Inventory-Role%2Fscreenshot_2023-07-22_14.53.19.png)
+
+
+## Step 8: Add IAM-Inventory-Role to the EC2 instance
+
+![screenshot_2023-07-22_14.56.31.png](images%2FAWS%20Cloud%20%26%20Big%20Data%20Architectures%2FAdd_IAM-Inventory-Role_to_the_EC2_instance%2Fscreenshot_2023-07-22_14.56.31.png)
+
+![screenshot_2023-07-22_14.56.43.png](images%2FAWS%20Cloud%20%26%20Big%20Data%20Architectures%2FAdd_IAM-Inventory-Role_to_the_EC2_instance%2Fscreenshot_2023-07-22_14.56.43.png)
+
+
+## Step 9: Edit inbound rules of the Capstone-DB Security group (add inbound rule and source is Inventory-App)
+
+![screenshot_2023-07-22_16.49.59.png](images%2FAWS%20Cloud%20%26%20Big%20Data%20Architectures%2FEdit_inbound_rules_of_the_Capstone-DB_SG%2Fscreenshot_2023-07-22_16.49.59.png)
+
+
+## Step 10: Edit inbound rules of Inventory-App security group (source is ALBSG)
+
+![screenshot_2023-07-22_16.51.24.png](images%2FAWS%20Cloud%20%26%20Big%20Data%20Architectures%2FEdit_Inbound_rules_inventory-App_SG%2Fscreenshot_2023-07-22_16.51.24.png)
+
+
+## Step 11: EC2 instance for commands
+
+1. Creation:
+
+![screenshot_2023-07-22_18.12.56.png](images%2FAWS%20Cloud%20%26%20Big%20Data%20Architectures%2FEC2_Instance_for_commands%2FCreation%2Fscreenshot_2023-07-22_18.12.56.png)
+
+![screenshot_2023-07-22_18.13.02.png](images%2FAWS%20Cloud%20%26%20Big%20Data%20Architectures%2FEC2_Instance_for_commands%2FCreation%2Fscreenshot_2023-07-22_18.13.02.png)
+
+![screenshot_2023-07-22_18.13.09.png](images%2FAWS%20Cloud%20%26%20Big%20Data%20Architectures%2FEC2_Instance_for_commands%2FCreation%2Fscreenshot_2023-07-22_18.13.09.png)
+
+![screenshot_2023-07-22_18.13.18.png](images%2FAWS%20Cloud%20%26%20Big%20Data%20Architectures%2FEC2_Instance_for_commands%2FCreation%2Fscreenshot_2023-07-22_18.13.18.png)
+
+![screenshot_2023-07-22_18.18.01.png](images%2FAWS%20Cloud%20%26%20Big%20Data%20Architectures%2FEC2_Instance_for_commands%2FCreation%2Fscreenshot_2023-07-22_18.18.01.png)
+
+![screenshot_2023-07-22_18.19.42.png](images%2FAWS%20Cloud%20%26%20Big%20Data%20Architectures%2FEC2_Instance_for_commands%2FCreation%2Fscreenshot_2023-07-22_18.19.42.png)
+
+
+2. Install a LAMP Webserver on Amazon Linux 2:
+
+![sudo_amazon-linux-extras_install-y...png](images%2FAWS%20Cloud%20%26%20Big%20Data%20Architectures%2FEC2_Instance_for_commands%2FInstall_LAMP_Webserver_on_Amazon_Linux_2%2Fsudo_amazon-linux-extras_install-y...png)
+
+![sudo_systemctl_enable_httpd.png](images%2FAWS%20Cloud%20%26%20Big%20Data%20Architectures%2FEC2_Instance_for_commands%2FInstall_LAMP_Webserver_on_Amazon_Linux_2%2Fsudo_systemctl_enable_httpd.png)
+
+![sudo_systemctl_start_httpd.png](images%2FAWS%20Cloud%20%26%20Big%20Data%20Architectures%2FEC2_Instance_for_commands%2FInstall_LAMP_Webserver_on_Amazon_Linux_2%2Fsudo_systemctl_start_httpd.png)
+
+![sudo_yum-y_update.png](images%2FAWS%20Cloud%20%26%20Big%20Data%20Architectures%2FEC2_Instance_for_commands%2FInstall_LAMP_Webserver_on_Amazon_Linux_2%2Fsudo_yum-y_update.png)
+
+![sudo_yum_install-y_httpd_mariadb-server.png](images%2FAWS%20Cloud%20%26%20Big%20Data%20Architectures%2FEC2_Instance_for_commands%2FInstall_LAMP_Webserver_on_Amazon_Linux_2%2Fsudo_yum_install-y_httpd_mariadb-server.png)
+
+
+3. Update Security Group:
+
+![screenshot_2023-07-22_18.34.11.png](images%2FAWS%20Cloud%20%26%20Big%20Data%20Architectures%2FEC2_Instance_for_commands%2FUpdate_security_group%2Fscreenshot_2023-07-22_18.34.11.png)
+
+
+4. Unzip data:
+
+![sudo_unzip_Example.zip-d__var_www_html_.png](images%2FAWS%20Cloud%20%26%20Big%20Data%20Architectures%2FEC2_Instance_for_commands%2FUnzip_data%2Fsudo_unzip_Example.zip-d__var_www_html_.png)
+
+
+5. Open site with IPv4 of EC2 instance
+
+![screenshot_2023-07-22_18.42.03.png](images%2FAWS%20Cloud%20%26%20Big%20Data%20Architectures%2FEC2_Instance_for_commands%2FOpen_site_ipv4_of_ec2_instance%2Fscreenshot_2023-07-22_18.42.03.png)
+
+![Query_does_not_work.png](images%2FAWS%20Cloud%20%26%20Big%20Data%20Architectures%2FEC2_Instance_for_commands%2FOpen_site_ipv4_of_ec2_instance%2FQuery_does_not_work.png)
+
+
+## Step 12: Create a MySQL RDS database instance
+
+1. Create a DB subnet group:
+
+![screenshot_2023-07-22_18.56.03.png](images%2FAWS%20Cloud%20%26%20Big%20Data%20Architectures%2FCreate_mysql_rds_db_instance%2Fcreate_db_subnet_group%2Fscreenshot_2023-07-22_18.56.03.png)
+
+![screenshot_2023-07-22_18.56.09.png](images%2FAWS%20Cloud%20%26%20Big%20Data%20Architectures%2FCreate_mysql_rds_db_instance%2Fcreate_db_subnet_group%2Fscreenshot_2023-07-22_18.56.09.png)
+
+![screenshot_2023-07-22_18.56.44.png](images%2FAWS%20Cloud%20%26%20Big%20Data%20Architectures%2FCreate_mysql_rds_db_instance%2Fcreate_db_subnet_group%2Fscreenshot_2023-07-22_18.56.44.png)
+
+2. Creation
+
+![screenshot_2023-07-22_19.06.20.png](images%2FAWS%20Cloud%20%26%20Big%20Data%20Architectures%2FCreate_mysql_rds_db_instance%2Fscreenshot_2023-07-22_19.06.20.png)
+
+![screenshot_2023-07-22_19.06.26.png](images%2FAWS%20Cloud%20%26%20Big%20Data%20Architectures%2FCreate_mysql_rds_db_instance%2Fscreenshot_2023-07-22_19.06.26.png)
+
+![screenshot_2023-07-22_19.06.32.png](images%2FAWS%20Cloud%20%26%20Big%20Data%20Architectures%2FCreate_mysql_rds_db_instance%2Fscreenshot_2023-07-22_19.06.32.png)
+
+![screenshot_2023-07-22_19.06.39.png](images%2FAWS%20Cloud%20%26%20Big%20Data%20Architectures%2FCreate_mysql_rds_db_instance%2Fscreenshot_2023-07-22_19.06.39.png)
+
+![screenshot_2023-07-22_19.06.45.png](images%2FAWS%20Cloud%20%26%20Big%20Data%20Architectures%2FCreate_mysql_rds_db_instance%2Fscreenshot_2023-07-22_19.06.45.png)
+
+![screenshot_2023-07-22_19.06.52.png](images%2FAWS%20Cloud%20%26%20Big%20Data%20Architectures%2FCreate_mysql_rds_db_instance%2Fscreenshot_2023-07-22_19.06.52.png)
+
+![screenshot_2023-07-22_19.07.00.png](images%2FAWS%20Cloud%20%26%20Big%20Data%20Architectures%2FCreate_mysql_rds_db_instance%2Fscreenshot_2023-07-22_19.07.00.png)
+
+![screenshot_2023-07-22_19.40.20.png](images%2FAWS%20Cloud%20%26%20Big%20Data%20Architectures%2FCreate_mysql_rds_db_instance%2Fscreenshot_2023-07-22_19.40.20.png)
+
+
+## Step 13: Commands in the EC2 instance
+
+![Download_SQL_dump_file.png](images%2FAWS%20Cloud%20%26%20Big%20Data%20Architectures%2FCommand_in_ec2_instance%2FDownload_SQL_dump_file.png)
+
+
+## Step 14: Load Balancer creation
+
+1. Create a target group:
+
+![screenshot_2023-07-22_20.01.40.png](images%2FAWS%20Cloud%20%26%20Big%20Data%20Architectures%2FCreate_load_balancer%2FCreate_target_group%2Fscreenshot_2023-07-22_20.01.40.png)
+
+![screenshot_2023-07-22_20.01.46.png](images%2FAWS%20Cloud%20%26%20Big%20Data%20Architectures%2FCreate_load_balancer%2FCreate_target_group%2Fscreenshot_2023-07-22_20.01.46.png)
+
+2. Creation:
+
+![screenshot_2023-07-22_20.02.54.png](images%2FAWS%20Cloud%20%26%20Big%20Data%20Architectures%2FCreate_load_balancer%2Fscreenshot_2023-07-22_20.02.54.png)
+
+![screenshot_2023-07-22_20.03.00.png](images%2FAWS%20Cloud%20%26%20Big%20Data%20Architectures%2FCreate_load_balancer%2Fscreenshot_2023-07-22_20.03.00.png)
+
+![screenshot_2023-07-22_20.03.07.png](images%2FAWS%20Cloud%20%26%20Big%20Data%20Architectures%2FCreate_load_balancer%2Fscreenshot_2023-07-22_20.03.07.png)
+
+![screenshot_2023-07-22_20.03.14.png](images%2FAWS%20Cloud%20%26%20Big%20Data%20Architectures%2FCreate_load_balancer%2Fscreenshot_2023-07-22_20.03.14.png)
+
+![screenshot_2023-07-22_20.03.20.png](images%2FAWS%20Cloud%20%26%20Big%20Data%20Architectures%2FCreate_load_balancer%2Fscreenshot_2023-07-22_20.03.20.png)
+
+![screenshot_2023-07-22_20.04.43.png](images%2FAWS%20Cloud%20%26%20Big%20Data%20Architectures%2FCreate_load_balancer%2Fscreenshot_2023-07-22_20.04.43.png)
+
+
+## Step 15: Check database content
+
+![screenshot_2023-07-22_20.10.40.png](images%2FAWS%20Cloud%20%26%20Big%20Data%20Architectures%2Fcheck_db_content%2Fscreenshot_2023-07-22_20.10.40.png)
+
+![screenshot_2023-07-22_20.23.05.png](images%2FAWS%20Cloud%20%26%20Big%20Data%20Architectures%2Fcheck_db_content%2Fscreenshot_2023-07-22_20.23.05.png)
+
+![screenshot_2023-07-22_20.28.24.png](images%2FAWS%20Cloud%20%26%20Big%20Data%20Architectures%2Fcheck_db_content%2Fscreenshot_2023-07-22_20.28.24.png)
+
+![screenshot_2023-07-22_20.28.44.png](images%2FAWS%20Cloud%20%26%20Big%20Data%20Architectures%2Fcheck_db_content%2Fscreenshot_2023-07-22_20.28.44.png)
+
+![screenshot_2023-07-22_20.29.53.png](images%2FAWS%20Cloud%20%26%20Big%20Data%20Architectures%2Fcheck_db_content%2Fscreenshot_2023-07-22_20.29.53.png)
+
+
+## Step 16: Create parameters
+
+![screenshot_2023-07-22_20.33.13.png](images%2FAWS%20Cloud%20%26%20Big%20Data%20Architectures%2FCreate_parameters%2Fscreenshot_2023-07-22_20.33.13.png)
+
+![screenshot_2023-07-22_20.34.44.png](images%2FAWS%20Cloud%20%26%20Big%20Data%20Architectures%2FCreate_parameters%2Fscreenshot_2023-07-22_20.34.44.png)
+
+![screenshot_2023-07-22_20.35.24.png](images%2FAWS%20Cloud%20%26%20Big%20Data%20Architectures%2FCreate_parameters%2Fscreenshot_2023-07-22_20.35.24.png)
+
+![screenshot_2023-07-22_20.36.15.png](images%2FAWS%20Cloud%20%26%20Big%20Data%20Architectures%2FCreate_parameters%2Fscreenshot_2023-07-22_20.36.15.png)
+
+![screenshot_2023-07-22_20.36.29.png](images%2FAWS%20Cloud%20%26%20Big%20Data%20Architectures%2FCreate_parameters%2Fscreenshot_2023-07-22_20.36.29.png)
+
+
+## Step 17: Query
+
+![screenshot_2023-07-22_20.37.32.png](images%2FAWS%20Cloud%20%26%20Big%20Data%20Architectures%2FQuery%2Fscreenshot_2023-07-22_20.37.32.png)
+
+
+## Step 18: Image creation
+
+![screenshot_2023-07-22_20.39.38.png](images%2FAWS%20Cloud%20%26%20Big%20Data%20Architectures%2Fimage_creation%2Fscreenshot_2023-07-22_20.39.38.png)
+
+![screenshot_2023-07-22_20.39.44.png](images%2FAWS%20Cloud%20%26%20Big%20Data%20Architectures%2Fimage_creation%2Fscreenshot_2023-07-22_20.39.44.png)
+
+![screenshot_2023-07-22_20.40.24.png](images%2FAWS%20Cloud%20%26%20Big%20Data%20Architectures%2Fimage_creation%2Fscreenshot_2023-07-22_20.40.24.png)
+
+
+## Step 19: Create launch template
+
+![screenshot_2023-07-22_20.48.52.png](images%2FAWS%20Cloud%20%26%20Big%20Data%20Architectures%2Fcreate_launch_template%2Fscreenshot_2023-07-22_20.48.52.png)
+
+![screenshot_2023-07-22_20.48.59.png](images%2FAWS%20Cloud%20%26%20Big%20Data%20Architectures%2Fcreate_launch_template%2Fscreenshot_2023-07-22_20.48.59.png)
+
+![screenshot_2023-07-22_20.49.05.png](images%2FAWS%20Cloud%20%26%20Big%20Data%20Architectures%2Fcreate_launch_template%2Fscreenshot_2023-07-22_20.49.05.png)
+
+![screenshot_2023-07-22_20.49.12.png](images%2FAWS%20Cloud%20%26%20Big%20Data%20Architectures%2Fcreate_launch_template%2Fscreenshot_2023-07-22_20.49.12.png)
+
+![screenshot_2023-07-22_20.49.26.png](images%2FAWS%20Cloud%20%26%20Big%20Data%20Architectures%2Fcreate_launch_template%2Fscreenshot_2023-07-22_20.49.26.png)
+
+
+## Step 20: Create an autoscaling group
+
+![screenshot_2023-07-22_20.51.35.png](images%2FAWS%20Cloud%20%26%20Big%20Data%20Architectures%2Fcreate_autoscaling_group%2Fscreenshot_2023-07-22_20.51.35.png)
+
+![screenshot_2023-07-22_20.51.41.png](images%2FAWS%20Cloud%20%26%20Big%20Data%20Architectures%2Fcreate_autoscaling_group%2Fscreenshot_2023-07-22_20.51.41.png)
+
+![screenshot_2023-07-22_20.53.53.png](images%2FAWS%20Cloud%20%26%20Big%20Data%20Architectures%2Fcreate_autoscaling_group%2Fscreenshot_2023-07-22_20.53.53.png)
+
+![screenshot_2023-07-22_20.53.59.png](images%2FAWS%20Cloud%20%26%20Big%20Data%20Architectures%2Fcreate_autoscaling_group%2Fscreenshot_2023-07-22_20.53.59.png)
+
+![screenshot_2023-07-22_20.54.46.png](images%2FAWS%20Cloud%20%26%20Big%20Data%20Architectures%2Fcreate_autoscaling_group%2Fscreenshot_2023-07-22_20.54.46.png)
+
+![screenshot_2023-07-22_20.55.48.png](images%2FAWS%20Cloud%20%26%20Big%20Data%20Architectures%2Fcreate_autoscaling_group%2Fscreenshot_2023-07-22_20.55.48.png)
+
+![screenshot_2023-07-22_20.55.55.png](images%2FAWS%20Cloud%20%26%20Big%20Data%20Architectures%2Fcreate_autoscaling_group%2Fscreenshot_2023-07-22_20.55.55.png)
+
+![screenshot_2023-07-22_20.56.35.png](images%2FAWS%20Cloud%20%26%20Big%20Data%20Architectures%2Fcreate_autoscaling_group%2Fscreenshot_2023-07-22_20.56.35.png)
+
+![screenshot_2023-07-22_20.57.00.png](images%2FAWS%20Cloud%20%26%20Big%20Data%20Architectures%2Fcreate_autoscaling_group%2Fscreenshot_2023-07-22_20.57.00.png)
+
+![screenshot_2023-07-22_21.31.37.png](images%2FAWS%20Cloud%20%26%20Big%20Data%20Architectures%2Fcreate_autoscaling_group%2Fscreenshot_2023-07-22_21.31.37.png)
 
 
 
